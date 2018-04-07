@@ -1,6 +1,7 @@
 body {
   margin: 0; padding: 0;
   font-family: "Roboto", sans-serif;
+  background-color: #fafafa;
 }
 
 .icon-btn {
@@ -68,6 +69,7 @@ body {
 }
 
 h2 {
+  box-sizing: border-box;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -77,19 +79,44 @@ h2 {
   padding-bottom: 15px;
 }
 
-h2 {
-  font-size: 14px;
+h3 {
+  font-size: 16px;
   font-weight: normal;
   font-style: normal;
-  color: #009789;
-  height: 48px;
-  padding-top: 14px;
-  padding-bottom: 15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.file-list-item {
+  position: relative;
+  box-sizing: border-box;
+  height: 72px;
+  padding: 16px 50px 13px 0;
+}
+
+.file-list-item p {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.43;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.file-list-item .icon-btn {
+  position: absolute;
+  top: 24px;
+  right: 10px;
 }
 
 
 
 
+.user-list-item__left-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 
 
