@@ -23,6 +23,7 @@ body {
   background-color: #009688;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.24), 0 0 4px 0 rgba(0, 0, 0, 0.12);
   overflow: auto;
+  z-index: 1;
 }
 
 .app-bar-left{
@@ -61,10 +62,6 @@ body {
   margin-left: 0;
   opacity: 0.75;
 }
-
-
-
-
 
 
 
